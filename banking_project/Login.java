@@ -76,7 +76,8 @@ public void actionPerformed(ActionEvent ae){
 cardTextField.setText("");
 PINTextField.setText("");
  } else if(ae.getSource()==signup){
-
+   setVisible(false);
+   new signup().setVisible(true);
  }
  else if(ae.getSource()==login) {
 
